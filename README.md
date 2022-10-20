@@ -1,4 +1,5 @@
 # Introduction-to-Computer
+
 # What are transistors?
 A transistor is a semiconductor that regulates or controls current or voltage flow. It also used as an amplifier or switch for the electrical signals
 
@@ -33,6 +34,8 @@ It is just an updated, more secure, version of SSL. We still refer to our securi
 
 # What is the OSI Model?
 The open systems interconnection (OSI) model is a conceptual model created by the International Organization for Standardization which enables diverse communication systems to communicate using standard protocols. In plain English, the OSI provides a standard for different computer systems to be able to communicate with each other.
+
+![](https://github.com/Mesi95/Introduction-to-Computer/blob/main/OSI-7-layers.jpg)
 
 # The 7 Layers of the OSI Model
 

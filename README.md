@@ -73,3 +73,18 @@ A software firewall is a special type of computer software that runs on a comput
 
 ## Hardware Firewall:
 It is physical piece of equipment planned to perform firewall duties. A hardware firewall can be a computer or a dedicated piece of equipment which serve as a firewall. Hardware firewall are incorporated into the router that is situated between the computer and the internet gateway. 
+
+### Difference between Hardware and Software firewall:
+
+| Parameters  | Software Firewall  | Hardware Firewall |
+| :------------ |:---------------:| :---------------:|
+| Operates on    | A software Firewall operates on the system. | Hardware Firewall do not operate on the system. |
+| Configuration      | Configuration of a software firewall is easy. |   Configuration of hardware firewall is not easy. |
+| Working | It is required to install the device between the computer and the Internet so that it will not be easily accessible. The installation requires a connection of network cable with the firewall rather than directly connecting to the router. Hence, a barrier is formed for blocking the incoming and outgoing data packets between the network and the Internet. It protects against viruses, malware, spyware, email spam, and other similar attacks from outside.|  It is installed on individual devices like computes and phones which results in blocking users or devices from accessing the individual components of the network. It basically inspects the packets and then blocks the unauthorized access. |
+| Cost |It is less expensive to install though the cost may increase in case of variation in computers.| It is more expensive than a software firewall as an initial investment is required based on the protection level.|
+| Flexibility | It is flexible i.e., you can choose which application has to be installed.| It is not flexible like software firewall.|
+| Installation | It is installed inside the individual system.  | It is installed outside the system.|
+| Protects | It protects one system at a time and is not enabled for smart TVs, gaming consoles, and other devices.| It protects a whole network at a time.|
+| Performance | It makes the performance of computers slows down.| It doesn’t affect the performance of the computer.|
+| Requirement | It is needed to be installed on every individual system on a network.| It needs only one hardware to be installed for a whole network. |
+| Blocking | In software firewall, content based on keywords can be blocked.| A domain or website can be blocked using hardware firewall. |

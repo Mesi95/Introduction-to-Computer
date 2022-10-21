@@ -88,3 +88,64 @@ It is physical piece of equipment planned to perform firewall duties. A hardware
 | Performance | It makes the performance of computers slows down.| It doesn’t affect the performance of the computer.|
 | Requirement | It is needed to be installed on every individual system on a network.| It needs only one hardware to be installed for a whole network. |
 | Blocking | In software firewall, content based on keywords can be blocked.| A domain or website can be blocked using hardware firewall. |
+
+# What is Register?
+
+A processor register (CPU register) is one of a small set of data holding places that are part of the computer processor.
+
+A register may hold an instruction, a storage address, or any kind of data (such as a bit sequence or individual characters). Some instructions specify registers as part of the instruction.
+
+## Types of Register
+
+In Computer Organisation, the register is utilized to acknowledge, store, move information and directions that are being utilized quickly by the CPU. There are different kinds of registers utilized for different reasons. Some of the commonly used registers are:
+
+* AC ( accumulator )
+* DR ( Data registers )
+* AR ( Address registers )
+* PC ( Program counter )
+* MDR ( Memory data registers )
+* IR ( index registers )
+* MBR ( Memory buffer registers )
+
+These registers are utilized for playing out the different operations. When we perform some operations, the CPU utilizes these registers to perform the operations. When we provide input to the system for a certain operation, the provided information or the input gets stored in the registers. Once the ALU arithmetic and logical unit process the output, the processed data is again provided to us by the registers.
+
+The sole reason for having a register is the quick recovery of information that the CPU will later process. The CPU can use RAM over the hard disk to retrieve the memory, which is comparatively a much faster option, but the speed retrieved from RAM is still not enough. Therefore, we have catch memory, which is faster than registers. These registers work with CPU memory like catch and RAM to complete the task quickly.
+
+# What is Virtualization?
+
+Virtualization is the process of running a virtual instance of a computer system in a layer abstracted from the actual hardware. Most commonly, it refers to running multiple operating systems on a computer system simultaneously. To the applications running on top of the virtualized machine, it can appear as if they are on their own dedicated machine, where the operating system, libraries, and other programs are unique to the guest virtualized system and unconnected to the host operating system which sits below it.
+
+There are many reasons why people utilize virtualization in computing. To desktop users, the most common use is to be able to run applications meant for a different operating system without having to switch computers or reboot into a different system. For administrators of servers, virtualization also offers the ability to run different operating systems, but perhaps, more importantly, it offers a way to segment a large system into many smaller parts, allowing the server to be used more efficiently by a number of different users or applications with different needs. It also allows for isolation, keeping programs running inside of a virtual machine safe from the processes taking place in another virtual machine on the same host.
+
+# What is a Virtual Machine?
+
+A virtual machine is the emulated equivalent of a computer system that runs on top of another system. Virtual machines may have access to any number of resources: computing power, through hardware-assisted but limited access to the host machine's CPU and memory; one or more physical or virtual disk devices for storage; a virtual or real network inferface; as well as any devices such as video cards, USB devices, or other hardware that are shared with the virtual machine. If the virtual machine is stored on a virtual disk, this is often referred to as a disk image. A disk image may contain the files for a virtual machine to boot, or, it can contain any other specific storage needs.
+
+# What is an Operating System?
+An operating system is the most important software that runs on a computer. It manages the computer's memory and processes, as well as all of its software and hardware. It also allows you to communicate with the computer without knowing how to speak the computer's language. Without an operating system, a computer is useless.
+
+## The operating system's job
+Your computer's operating system (OS) manages all of the software and hardware on the computer. Most of the time, there are several different computer programs running at the same time, and they all need to access your computer's central processing unit (CPU), memory, and storage. The operating system coordinates all of this to make sure each program gets what it needs.
+
+## Types of operating systems
+Operating systems usually come pre-loaded on any computer you buy. Most people use the operating system that comes with their computer, but it's possible to upgrade or even change operating systems. The three most common operating systems for personal computers are Microsoft Windows, macOS, and Linux.
+
+Modern operating systems use a graphical user interface, or GUI (pronounced gooey). A GUI lets you use your mouse to click icons, buttons, and menus, and everything is clearly displayed on the screen using a combination of graphics and text.
+
+Each operating system's GUI has a different look and feel, so if you switch to a different operating system it may seem unfamiliar at first. However, modern operating systems are designed to be easy to use, and most of the basic principles are the same.
+
+# Native Apps, Web Apps, and Hybrid Apps
+
+Native and hybrid apps are installed in an app store, whereas web apps are mobile-optimized webpages that look like an app. Both hybrid and web apps render HTML web pages, but hybrid apps use app-embedded browsers to do that.
+
+## Native Apps
+Native apps live on the device and are accessed through icons on the device home screen. Native apps are installed through an application store (such as Google Play or Apple’s App Store). They are developed specifically for one platform, and can take full advantage of all the device features — they can use the camera, the GPS, the accelerometer, the compass, the list of contacts, and so on. They can also incorporate gestures (either standard operating-system gestures or new, app-defined gestures). And native apps can use the device’s notification system and can work offline.
+
+## Mobile Web Apps
+Web apps are not real applications; they are really websites that, in many ways, look and feel like native applications, but are not implemented as such. They are run by a browser and typically written in HTML5. Users first access them as they would access any web page: they navigate to a special URL and then have the option of “installing” them on their home screen by creating a bookmark to that page.
+
+## Hybrid apps
+Hybrid apps are part native apps, part web apps. (Because of that, many people incorrectly call them “web apps”). Like native apps, they live in an app store and can take advantage of the many device features available. Like web apps, they rely on HTML being rendered in a browser, with the caveat that the browser is embedded within the app.
+
+# What is Java?
+Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere ,meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages.
